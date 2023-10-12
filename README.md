@@ -138,7 +138,7 @@ nano /etc/bind/arjuna/arjuna.a05.com
 ```
 
 kemudian masuk kedalam file arjuna.a05.com dan setting menjadi seperti berikut
-![]()
+![](https://github.com/riansyah251641/Jarkom-Modul-2-A05-2023/blob/main/gambar/Cuplikan%20layar%202023-10-12%20144429.png)
 
 lalu ketik ```service bind9 restart```
 
@@ -147,7 +147,7 @@ hubungkan ke server arjuna
 ``` echo nameserver 192.171.3.5 > /etc/resolv.conf```
 kemudian lakukan ping ``` ping arjuna.a05.com -c 5``` atau ``` host -t A arjuna.a05.com ```
 maka akan muncul gambar berikut
-![]()
+![](https://github.com/riansyah251641/Jarkom-Modul-2-A05-2023/blob/main/gambar/Cuplikan%20layar%202023-10-12%20144746.png)
 
 ## No 3
 Dengan cara yang sama seperti soal nomor 2, buatlah website utama dengan akses ke abimanyu.yyy.com dan alias www.abimanyu.yyy.com.
@@ -180,7 +180,7 @@ nano /etc/bind/abimanyu/abimanyu.a05.com
 ```
 
 kemudian masuk kedalam file abimanyu.a05.com dan setting menjadi seperti berikut
-![]()
+![](https://github.com/riansyah251641/Jarkom-Modul-2-A05-2023/blob/main/gambar/Cuplikan%20layar%202023-10-12%20145552.png)
 
 lalu ketik ```service bind9 restart```
 
@@ -230,7 +230,7 @@ nano /etc/bind/abimanyu/1.171.192.in-addr.arpa
 ```
 
 lalu ubah seperti digambar
-![]()
+![](https://github.com/riansyah251641/Jarkom-Modul-2-A05-2023/blob/main/gambar/Cuplikan%20layar%202023-10-12%20150350.png)
 
 untuk mencek masuk ke nakula client
 hubungkan ke server pusat
@@ -293,7 +293,7 @@ ketik
 ```nano /etc/bind/abimanyu/abimanyu.a05.com```
 
 ubah menjadi seperti digambar
-![]()
+![](https://github.com/riansyah251641/Jarkom-Modul-2-A05-2023/blob/main/gambar/Cuplikan%20layar%202023-10-12%20160748.png)
 
 lalu buka ```nano /etc/bind/named.conf.options``` beri ```//``` pada ```dnssec-validation auto;``` dan tambahkan ```allow-query{any;};``` dibawahnya
 
@@ -323,7 +323,7 @@ nano /etc/bind/baratayuda/baratayuda.abimanyu.a05.com
 ```
 
 lalu setting seperti pada gambar dibawah
-![]()
+![](https://github.com/riansyah251641/Jarkom-Modul-2-A05-2023/blob/main/gambar/Cuplikan%20layar%202023-10-12%20161157.png)
 
 kemudian restart bind dan jalankan di server client
 
@@ -334,10 +334,11 @@ buka node werkudara
 ``` nano /etc/bind/baratayuda/baratayuda.abimanyu.a05.com```
 
 lalu setting seperti di gambar
-![]()
+![](https://github.com/riansyah251641/Jarkom-Modul-2-A05-2023/blob/main/gambar/Cuplikan%20layar%202023-10-12%20162348.png)
 
 kemudian restart bind dan cekdi client server
 
+![](https://github.com/riansyah251641/Jarkom-Modul-2-A05-2023/blob/main/gambar/Cuplikan%20layar%202023-10-12%20162419.png)
 
 ## No 11
 Selain menggunakan Nginx, lakukan konfigurasi Apache Web Server pada worker Abimanyu dengan web server www.abimanyu.a05.com. Pertama dibutuhkan web server dengan DocumentRoot pada /var/www/abimanyu.a05
