@@ -196,7 +196,6 @@ ketik
 ```nano /etc/bind/abimanyu/abimanyu.a05.com```
 
 lalu tambahkan seperti digambar
-![]()
 
 lalu ketik ```service bind9 restart```
 
@@ -204,6 +203,8 @@ untuk mencek masuk ke nakula client
 hubungkan ke server yudhistira
 ``` echo nameserver 192.171.1.3 > /etc/resolv.conf```
 kemudian lakukan ping ``` ping parikesit.abimanyu.a05.com -c 5``` 
+
+![](https://github.com/riansyah251641/Jarkom-Modul-2-A05-2023/blob/main/gambar/Cuplikan%20layar%202023-10-10%20182348.png)
 
 ## No 5
 Buat juga reverse domain untuk domain utama. (Abimanyu saja yang direverse)
